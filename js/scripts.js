@@ -17,9 +17,6 @@ $(document).ready(function() {
     $("input#new-date").val("");
     $("input#new-note").val("");
 
-    var $lastPlace = $(".place").last();
-    console.log($lastPlace);
-
     $(".place").last().click(function() {
       $("#show-place").show();
       $("#show-place h2").text(newLocation.place);
